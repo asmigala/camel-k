@@ -30,12 +30,12 @@ require (
 	github.com/prometheus/client_model v0.2.0
 	github.com/prometheus/common v0.30.0
 	github.com/radovskyb/watcher v1.0.6
-	github.com/redhat-developer/service-binding-operator v0.9.1
+	github.com/redhat-developer/service-binding-operator v1.1.1
 	github.com/rs/xid v1.2.1
 	github.com/scylladb/go-set v1.0.2
 	github.com/shurcooL/httpfs v0.0.0-20190707220628-8d4bc4ba7749
 	github.com/shurcooL/vfsgen v0.0.0-20181202132449-6a9ea43bcacd
-	github.com/sirupsen/logrus v1.7.0
+	github.com/sirupsen/logrus v1.8.1
 	github.com/spf13/cobra v1.1.3
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.7.0
@@ -46,11 +46,11 @@ require (
 	golang.org/x/oauth2 v0.0.0-20210819190943-2bc19b11175f
 	gopkg.in/inf.v0 v0.9.1
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.21.4
-	k8s.io/apiextensions-apiserver v0.21.4
-	k8s.io/apimachinery v0.21.4
+	k8s.io/api v0.22.1
+	k8s.io/apiextensions-apiserver v0.22.1
+	k8s.io/apimachinery v0.22.1
 	k8s.io/cli-runtime v0.21.4
-	k8s.io/client-go v0.21.4
+	k8s.io/client-go v0.22.1
 	k8s.io/gengo v0.0.0-20210203185629-de9496dff47b
 	k8s.io/klog/v2 v2.9.0
 	k8s.io/kubectl v0.21.4
@@ -58,7 +58,7 @@ require (
 	knative.dev/eventing v0.26.0
 	knative.dev/pkg v0.0.0-20210919202233-5ae482141474
 	knative.dev/serving v0.26.0
-	sigs.k8s.io/controller-runtime v0.9.7
+	sigs.k8s.io/controller-runtime v0.10.0
 )
 
 replace github.com/docker/docker => github.com/moby/moby v0.7.3-0.20190826074503-38ab9da00309 // Required by Helm
